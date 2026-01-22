@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Site Vitrine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      scroll-behavior: smooth;
+    }
+
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.55);
+    }
+
+    .content {
+      position: relative;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- SECTION 1 -->
+  <section style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');">
+    <div class="content">
+      <h1>Publicité Digitale</h1>
+      <p>
+        J’aide les entreprises et particuliers à vendre efficacement
+        sur TikTok, Facebook et Google grâce à des stratégies performantes.
+      </p>
+    </div>
+  </section>
+
+  <!-- SECTION 2 -->
+  <section style="background-image: url('https://images.unsplash.com/photo-1556761175-4b46a572b786');">
+    <div class="content">
+      <h1>Formations Digitales</h1>
+      <p>
+        Formations pratiques en marketing digital, e-commerce,
+        publicité en ligne et compétences numériques.
+      </p>
+    </div>
+  </section>
+
+  <!-- SECTION 3 -->
+  <section style="background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d');">
+    <div class="content">
+      <h1>Solutions Technologiques</h1>
+      <p>
+        Accompagnement en solutions
 
